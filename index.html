@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Actividad Reinsdoc</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <form>
+        <section>
+            <h1>Create Account</h1>
+            Nombre <br>
+            <input id="name" name="name" type="texts" required onchange="checkName()" />
+            <span id="errorName" class="error"></span><span id="errorTipName" class="errorTip"></span><br>
+            Email <br>
+            <input id="email" name="email" type="text" required onchange="checkEmail()" />
+            <span id="errorEmail" class="error"></span><div id="errorTipEmail" class="errorTip"></div><br>
+            Clave <br>
+            <input id="pswd1" name="pswd1" type="password" required onchange="checkPswd1()" />
+            <span id="errorPswd1" class="error"></span><span id="errorTipPswd1" class="errorTip"></span><br>
+            Confirme su clave <br>
+            <input id="pswd2" name="pswd2" type="password" required onchange="checkPswd2()" />
+            <span id="errorPswd2" class="error"></span><br><br>
+            <button id="button" type="button" onclick="summit()">ENVIAR</button>
+
+        </section>
+    </form>
+</body>
+<footer>
+
+</footer>
